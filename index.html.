@@ -1,1 +1,362 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tumma Sreeja Divya Gnan | RTL Design Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="RTL Design Engineer with 5 years of experience in FPGA design, verification and automation." />
+  <style>
+    :root {
+      --bg: #0b1020;
+      --bg-alt: #111729;
+      --accent: #4dd0e1;
+      --text: #e3f2fd;
+      --muted: #90a4ae;
+      --card: #151b2f;
+      --border: #263238;
+      --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--font);
+      background: radial-gradient(circle at top, #1a237e 0, #0b1020 45%, #000 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 24px 20px;
+      margin-bottom: 24px;
+      background: linear-gradient(135deg, rgba(77,208,225,0.08), rgba(21,31,48,0.9));
+      border-radius: 16px;
+      border: 1px solid rgba(77,208,225,0.35);
+      box-shadow: 0 18px 60px rgba(0,0,0,0.75);
+      backdrop-filter: blur(14px);
+    }
+    .title-block h1 {
+      font-size: 1.8rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .title-block p {
+      color: var(--muted);
+      margin-top: 4px;
+      font-size: 0.95rem;
+    }
+    .meta {
+      text-align: right;
+      font-size: 0.9rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 4px 10px;
+      font-size: 0.75rem;
+      border-radius: 999px;
+      border: 1px solid rgba(77,208,225,0.6);
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 6px;
+    }
+    main {
+      display: grid;
+      grid-template-columns: minmax(0, 2.1fr) minmax(0, 1.2fr);
+      gap: 20px;
+    }
+    @media (max-width: 800px) {
+      main { grid-template-columns: 1fr; }
+      .meta { text-align: left; }
+    }
+    section {
+      margin-bottom: 20px;
+      background: radial-gradient(circle at top left, rgba(77,208,225,0.18), rgba(15,18,36,0.95));
+      border-radius: 14px;
+      padding: 18px 18px 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.63);
+    }
+    section h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-weight: 600;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+    }
+    .pill {
+      font-size: 0.8rem;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: rgba(11,17,39,0.9);
+      border: 1px solid rgba(77,208,225,0.35);
+      color: var(--text);
+      white-space: nowrap;
+    }
+    ul {
+      list-style: none;
+      margin-top: 8px;
+    }
+    ul li {
+      position: relative;
+      padding-left: 14px;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+    }
+    ul li::before {
+      content: "•";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-size: 0.8rem;
+      top: 3px;
+    }
+    .job {
+      margin-bottom: 14px;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 0.9rem;
+      margin-bottom: 3px;
+    }
+    .job-title {
+      font-weight: 600;
+    }
+    .job-meta {
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    .project-name {
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+    footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title-block">
+        <div class="tag">RTL • FPGA • VLSI</div>
+        <h1>Tumma Sreeja Divya Gnan</h1>
+        <p>RTL Design Engineer | FPGA Development & ASIC Verification</p>
+      </div>
+      <div class="meta">
+        <div>London, United Kingdom</div>
+        <div>Eligible to work in the UK (Dependent Visa)</div>
+        <div><a href="mailto:sreejakondi1996@gmail.com">sreejakondi1996@gmail.com</a></div>
+        <div>+44 07352 676560</div>
+        <!-- Optional: add LinkedIn or GitHub -->
+        <!-- <div><a href="https://linkedin.com/in/...">LinkedIn</a></div> -->
+      </div>
+    </header>
+
+    <main>
+      <!-- LEFT COLUMN -->
+      <div>
+        <section id="about">
+          <h2>About</h2>
+          <p>
+            Design engineer with 5 years of experience in RTL design, validation and automation,
+            working across multiple FPGA families and SoC platforms. Passionate about building
+            reliable digital systems, improving flows through scripting and delivering
+            production-quality designs.
+          </p>
+        </section>
+
+        <section id="experience">
+          <h2>Experience</h2>
+
+          <div class="job">
+            <div class="job-header">
+              <div class="job-title">Design Engineer – AMD</div>
+              <div class="job-meta">Mar 2025 – Nov 2025</div>
+            </div>
+            <ul>
+              <li>Contributed to RTL design and validation flows for leading-edge FPGA/SoC devices.</li>
+              <li>Collaborated with cross‑functional teams on feature bring‑up, debug and performance analysis.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div class="job-title">Design Engineer – Microchip Technology, Hyderabad</div>
+              <div class="job-meta">Aug 2021 – Jan 2025</div>
+            </div>
+            <ul>
+              <li>Designed, modified and validated application designs across PolarFire, RTG4 and RT PolarFire FPGA families.</li>
+              <li>Owned timing analysis, simulation, CDC and lint checks, integrating results into automated TCL‑driven flows.</li>
+              <li>Authored and maintained application notes, user guides and power estimation documentation.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="job-header">
+              <div class="job-title">Intern – Microchip Technology, Hyderabad</div>
+              <div class="job-meta">Aug 2020 – Aug 2021</div>
+            </div>
+            <ul>
+              <li>Supported development and validation of FPGA reference designs and internal tooling.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2>Selected Projects</h2>
+
+          <div class="job">
+            <div class="project-name">Multiboot & Fallback using QSPI/OSPI – Spartan UltraScale+</div>
+            <div class="job-meta">Verilog, SystemVerilog, Vivado, Vitis</div>
+            <ul>
+              <li>Implemented multiboot and fallback configuration flows using QSPI and OSPI for Spartan UltraScale+ FPGAs.</li>
+              <li>Developed configuration debugging techniques to diagnose and resolve configuration‑time issues.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="project-name">Regression & IP Validation – PolarFire / RTG4</div>
+            <div class="job-meta">Verilog, TCL, Libero, ModelSim, Questa CDC/Lint</div>
+            <ul>
+              <li>Maintained and updated a suite of application designs (DRI, Ethernet, CPRI, DSP, SERDES, sensors) for latest IP releases.</li>
+              <li>Automated timing, simulation, CDC and lint runs with TCL scripting to ensure consistent design quality.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="project-name">Error Detection & Correction (EDAC) for Fabric RAM</div>
+            <div class="job-meta">PolarFire, RT PolarFire</div>
+            <ul>
+              <li>Designed EDAC logic with scrubbing for fabric RAM blocks, supporting error injection, detection and correction.</li>
+              <li>Used loopback‑based strategies to verify reliability and coverage.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="project-name">RISC‑V Processor Subsystem – RT PolarFire</div>
+            <ul>
+              <li>Built a MiV processor subsystem executing from TCM, with memory architecture tailored to application needs.</li>
+              <li>Verified software execution via UART prints on serial terminal.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="project-name">DDR3 Native Interface Access</div>
+            <ul>
+              <li>Implemented DDR3 burst read/write via native interface with selectable traffic patterns using DIP switches.</li>
+              <li>Validated throughput and data integrity using SmartDebug tools.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="project-name">Cryptographic RTL – AES‑GCM, SHA‑256, SM4</div>
+            <ul>
+              <li>Wrote RTL implementations for pipelined AES‑GCM, SHA‑256 and SM4 cores and verified them against NIST vectors.</li>
+            </ul>
+          </div>
+
+          <div class="job">
+            <div class="project-name">Automated TCL Project Extraction & Reconstruction</div>
+            <ul>
+              <li>Developed TCL utilities to generate consistent project folder structures and extract all IP, constraints and HDL files.</li>
+              <li>Reduced manual project setup effort and improved reproducibility across design teams.</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div>
+        <section id="skills">
+          <h2>Skills</h2>
+          <p><strong>Domain</strong>: RTL design, FPGA development, ASIC verification (UVM), emulation & prototyping.</p>
+          <div class="pill-row">
+            <span class="pill">RTL Design</span>
+            <span class="pill">FPGA Development</span>
+            <span class="pill">ASIC Verification (UVM)</span>
+            <span class="pill">Emulation & Prototyping</span>
+          </div>
+
+          <p style="margin-top:12px;"><strong>Languages</strong>:</p>
+          <div class="pill-row">
+            <span class="pill">Verilog</span>
+            <span class="pill">SystemVerilog</span>
+            <span class="pill">C</span>
+            <span class="pill">TCL</span>
+            <span class="pill">Perl</span>
+            <span class="pill">Python</span>
+          </div>
+
+          <p style="margin-top:12px;"><strong>Tools</strong>:</p>
+          <div class="pill-row">
+            <span class="pill">Libero SoC</span>
+            <span class="pill">Vivado</span>
+            <span class="pill">Vitis</span>
+            <span class="pill">SoftConsole</span>
+            <span class="pill">ModelSim</span>
+            <span class="pill">Questa</span>
+            <span class="pill">Cadence Palladium</span>
+            <span class="pill">Quartus Prime</span>
+          </div>
+
+          <p style="margin-top:12px;"><strong>Collaboration</strong>:</p>
+          <div class="pill-row">
+            <span class="pill">Jira</span>
+            <span class="pill">Bugzilla</span>
+            <span class="pill">Bitbucket</span>
+            <span class="pill">SVN</span>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2>Education</h2>
+          <div class="job">
+            <div class="job-title">M.Tech – VLSI System Design</div>
+            <div class="job-meta">National Institute of Technology, Warangal – 2021</div>
+            <ul>
+              <li>CGPA: 7.56</li>
+            </ul>
+          </div>
+          <div class="job">
+            <div class="job-title">B.Tech – Electronics & Communication Engineering</div>
+            <div class="job-meta">Kakatiya University – 2017</div>
+            <ul>
+              <li>Percentage: 82.4%</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      © <span id="year"></span> Tumma Sreeja Divya Gnan · Portfolio
+    </footer>
+  </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
